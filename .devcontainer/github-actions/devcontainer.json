@@ -12,9 +12,16 @@
                 // Files
                 "files.insertFinalNewline": true,
                 "files.trimFinalNewlines": true,
-                "files.trimTrailingWhitespace": true
+                "files.trimTrailingWhitespace": true,
+                // GitHub Actions
+                // "[github-actions-workflow]": {
+                //     "editor.defaultFormatter": "esbenp.prettier-vscode",
+                //     "editor.formatOnSave": true
+                // }
             },
             "extensions": [
+                // Formatter
+                // "esbenp.prettier-vscode",
                 // Github Actions
                 "github.vscode-github-actions"
             ]
