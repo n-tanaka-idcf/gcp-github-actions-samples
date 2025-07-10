@@ -1,0 +1,23 @@
+{
+    "name": "github-actions",
+    "image": "mcr.microsoft.com/devcontainers/base:noble",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                // Editor
+                "editor.formatOnSave": true,
+                // Files
+                "files.insertFinalNewline": true,
+                "files.trimFinalNewlines": true,
+                "files.trimTrailingWhitespace": true
+            },
+            "extensions": [
+                // Github Actions
+                "github.vscode-github-actions"
+            ]
+        }
+    }
+}
